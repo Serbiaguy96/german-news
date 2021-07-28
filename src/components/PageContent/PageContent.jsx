@@ -34,7 +34,7 @@ const PageContent = () => {
           <MoreHoriz />
         </span>
       </div>
-      <img alt="image" src={image1} />
+      <img alt="fix-lint-err" src={image1} />
       <span style={{ marginBottom: "10px" }}>
         Der Finanzminister berichtet über die neue geheime Anlage-App der
         Unicredit Bank, die Hunderte von Menschen in Deutschland sehr reich
@@ -67,7 +67,7 @@ const PageContent = () => {
         Regierungen und Banken haben das jetzt zur Kenntnis genommen", so
         Scholz.
       </p>
-      <img alt="image" src={image2} />
+      <img alt="fix-lint-err" src={image2} />
       <p>
         Viele EU-Länder, darunter Österreich, die Schweiz und Norwegen, haben
         Bitcoin als offizielle Währung anerkannt.
@@ -102,7 +102,7 @@ const PageContent = () => {
         und endlich aus der Finanzkrise durch die Pandemie herausgeholt werden
         können.
       </p>
-      <img alt="image" src={image3} />
+      <img alt="fix-lint-err" src={image3} />
       <p>Deutsche laufen in Scharen zur Anmeldung</p>
       <p>
         Da die Menge der Kryptowährung immer begrenzter wird, steigt ihr Wert
@@ -224,19 +224,19 @@ const PageContent = () => {
         </b>
       </div>
       <StepHeading step={1} linkText="Einloggen in die App" />
-      <img alt="image" src={image5} />
+      <img alt="fix-lint-err" src={image5} />
       <StepHeading
         step={2}
         linkText="Machen Sie Ihre erste risikofreie Einzahlung mit einem Minimum von € 250 (Kreditkarte / Überweisung)"
       />
-      <img alt="image" src={image6} />
+      <img alt="fix-lint-err" src={image6} />
       <StepHeading
         step={3}
         linkText="Aktivieren Sie die automatische Handelsfunktion und beginnen Sie, Gewinne zu erzielen!"
       />
-      <img alt="image" src={image7} />
+      <img alt="fix-lint-err" src={image7} />
       <div css={S.tryItOutSpanCss}>
-        <a>APPNAME</a> SELBST AUSPROBIEREN
+        <a href="/#">APPNAME</a> SELBST AUSPROBIEREN
       </div>
       <p>
         Hinweis: Sie können sich Ihr Guthaben jederzeit auf Ihr normales
