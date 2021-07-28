@@ -11,17 +11,17 @@ const Header = () => {
           <SpeakerNotes css={S.iconNewsCss} />
         </div>
         <div css={S.headerContentCss}>
-          <a href="#" css={S.activeHref}>
+          <a href="/#" css={S.activeHref}>
             Europa > Deutschland
           </a>
-          <a href="#">Afrika</a>
-          <a href="#">Amerika</a>
-          <a href="#">Asien</a>
-          <a href="#">Australien</a>
-          <a href="#">Europa</a>
+          <a href="/#">Afrika</a>
+          <a href="/#">Amerika</a>
+          <a href="/#">Asien</a>
+          <a href="/#">Australien</a>
+          <a href="/#">Europa</a>
         </div>
         <div css={S.headerContentCss}>
-          <a href="#">Internationale Ausgabe +</a>
+          <a href="/#">Internationale Ausgabe +</a>
           <Search css={S.iconHeaderCss} />
           <Menu css={S.iconHeaderCss} />
         </div>

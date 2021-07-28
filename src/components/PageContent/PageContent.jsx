@@ -1,5 +1,5 @@
 /** @jsxImportSource @emotion/react */
-import React, { Fragment } from "react";
+import React from "react";
 import facebook from "../../assets/images/facebook.png";
 import twitter from "../../assets/images/twitter.png";
 import image1 from "../../assets/images/imag1.jpg";
@@ -23,7 +23,7 @@ const PageContent = () => {
       </h1>
       <div css={S.newsInfoSection}>
         <span css={S.newInfoSectionFirstPart}>
-          Artikel von <a href="#">Mario Bertolini</a>, News Deutschland
+          Artikel von <a href="/#">Mario Bertolini</a>, News Deutschland
         </span>
         <span>Aktualisiert am 25. Juli 2021</span>
       </div>
@@ -34,7 +34,7 @@ const PageContent = () => {
           <MoreHoriz />
         </span>
       </div>
-      <img src={image1} />
+      <img alt="image" src={image1} />
       <span style={{ marginBottom: "10px" }}>
         Der Finanzminister berichtet über die neue geheime Anlage-App der
         Unicredit Bank, die Hunderte von Menschen in Deutschland sehr reich
@@ -67,7 +67,7 @@ const PageContent = () => {
         Regierungen und Banken haben das jetzt zur Kenntnis genommen", so
         Scholz.
       </p>
-      <img src={image2} />
+      <img alt="image" src={image2} />
       <p>
         Viele EU-Länder, darunter Österreich, die Schweiz und Norwegen, haben
         Bitcoin als offizielle Währung anerkannt.
@@ -102,7 +102,7 @@ const PageContent = () => {
         und endlich aus der Finanzkrise durch die Pandemie herausgeholt werden
         können.
       </p>
-      <img src={image3} />
+      <img alt="image" src={image3} />
       <p>Deutsche laufen in Scharen zur Anmeldung</p>
       <p>
         Da die Menge der Kryptowährung immer begrenzter wird, steigt ihr Wert
@@ -224,17 +224,17 @@ const PageContent = () => {
         </b>
       </div>
       <StepHeading step={1} linkText="Einloggen in die App" />
-      <img src={image5} />
+      <img alt="image" src={image5} />
       <StepHeading
         step={2}
         linkText="Machen Sie Ihre erste risikofreie Einzahlung mit einem Minimum von € 250 (Kreditkarte / Überweisung)"
       />
-      <img src={image6} />
+      <img alt="image" src={image6} />
       <StepHeading
         step={3}
         linkText="Aktivieren Sie die automatische Handelsfunktion und beginnen Sie, Gewinne zu erzielen!"
       />
-      <img src={image7} />
+      <img alt="image" src={image7} />
       <div css={S.tryItOutSpanCss}>
         <a>APPNAME</a> SELBST AUSPROBIEREN
       </div>
