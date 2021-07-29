@@ -141,7 +141,7 @@ const PageContent = () => {
       </video>
       <p>
         "Das erste, was ich tat, nachdem ich den Link erhalten hatte, war, ein
-        Konto bei APPNAME zu eröffnen. Es dauerte nur 2 Minuten, um es
+        Konto bei BitQiapp zu eröffnen. Es dauerte nur 2 Minuten, um es
         einzurichten. Nachdem ich meinen Namen, meine E-Mail-Adresse und meine
         Telefonnummer eingegeben hatte, konnte ich loslegen. Um mein Konto zu
         aktivieren, habe ich nur eine kleine Einzahlung auf mein Konto gemacht.
@@ -163,7 +163,7 @@ const PageContent = () => {
       </p>
       <p>
         "Nach einer stressigen Woche auf der Arbeit hätte ich fast mein Konto
-        bei APPNAME vergessen. Ich ließ das Geld liegen und bevor ich eines
+        bei BitQiapp vergessen. Ich ließ das Geld liegen und bevor ich eines
         Abends schlafen ging, loggte ich mich ein und konnte nicht glauben, was
         ich da sah. Meine anfängliche Einzahlung von 250 €, war nun 2.453,58 €
         wert! Mein Kontomanager sagte mir, je mehr Geld man auf dem Konto lässt,
@@ -179,14 +179,14 @@ const PageContent = () => {
         Nachtschichten in der Fabrik arbeiten."
       </p>
       <div css={S.innerHeadingCss}>VERPASSEN SIE NICHT DIESE GELEGENHEIT</div>
-      <p>Auch Angela Merkel unterstützt die Verbreitung dieser APPNAME.</p>
+      <p>Auch Angela Merkel unterstützt die Verbreitung dieser BitQiapp.</p>
       <p>
-        Derzeit ermöglicht APPNAME unseren Lesern, die Plattform mit einer
+        Derzeit ermöglicht BitQiapp unseren Lesern, die Plattform mit einer
         Mindesteinlage von nur 250 Euro zu testen und große Gewinne zu machen.
         Es gibt keine Verpflichtungen und Sie können sich Ihre Gewinne jederzeit
         auszahlen lassen.
       </p>
-      <p>Wir haben mit APPNAME gesprochen und sie sagten folgendes:</p>
+      <p>Wir haben mit BitQiapp gesprochen und sie sagten folgendes:</p>
       <p>
         "Sie dürfen diese Gelegenheit einfach nicht verpassen. Die Plattform ist
         gerade erst in Deutschland gestartet und sie wird ihre Nutzer extrem
@@ -236,7 +236,7 @@ const PageContent = () => {
       />
       <img alt="fix-lint-err" src={image7} />
       <div css={S.tryItOutSpanCss}>
-        <a href="/#">APPNAME</a> SELBST AUSPROBIEREN
+        <a href="https://bitqiapp.com/">BitQiapp</a> SELBST AUSPROBIEREN
       </div>
       <p>
         Hinweis: Sie können sich Ihr Guthaben jederzeit auf Ihr normales
