@@ -1,4 +1,4 @@
-import profile1 from "../../assets/images/profile1.jpeg";
+import profile1 from "../../assets/images/profile1.jpg";
 import profile2 from "../../assets/images/profile2.png";
 import profile3 from "../../assets/images/profile3.jpg";
 import profile4 from "../../assets/images/profile4.jpg";
