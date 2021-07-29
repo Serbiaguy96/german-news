@@ -16,7 +16,7 @@ export const contentContainerCss = css`
     font-weight: 300;
     line-height: 30px;
   }
-  
+
   @media (max-width: 1024px) {
     margin: 0 20px;
   }
@@ -73,6 +73,15 @@ export const twitterSizeCss = css`
   height: 40px !important;
 `;
 
+export const afterImgText = css`
+  font-size: 14px !important;
+  padding: 10px 0 20px 0;
+  color: #262626;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+`;
+
 export const moreDotsContainer = css`
   background-color: #c00;
   height: 40px;
@@ -99,7 +108,7 @@ export const innerHeadingCss = css`
   font-weight: 300;
   padding: 20px 0 10px 0;
   line-height: 40px !important;
-  
+
   @media (max-width: 1024px) {
     font-size: 28px;
   }
@@ -122,7 +131,7 @@ export const sucessBoxCss = css`
   margin: 0 0 20px 0;
   color: #262626;
   font-weight: 300;
-  
+
   @media (max-width: 1024px) {
     width: calc(100% - 40px);
   }

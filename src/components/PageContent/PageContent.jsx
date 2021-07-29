@@ -1,5 +1,8 @@
 /** @jsxImportSource @emotion/react */
 import React from "react";
+import { MoreHoriz } from "@material-ui/icons";
+import StepHeading from "../StepHeading";
+import Comments from "../Comments";
 import facebook from "../../assets/images/facebook.png";
 import twitter from "../../assets/images/twitter.png";
 import image1 from "../../assets/images/imag1.jpg";
@@ -11,8 +14,6 @@ import image6 from "../../assets/images/image6.png";
 import image7 from "../../assets/images/image7.png";
 
 import * as S from "./styles";
-import { MoreHoriz } from "@material-ui/icons";
-import StepHeading from "../StepHeading";
 
 const PageContent = () => {
   return (
@@ -23,9 +24,9 @@ const PageContent = () => {
       </h1>
       <div css={S.newsInfoSection}>
         <span css={S.newInfoSectionFirstPart}>
-          Artikel von <a href="/#">Mario Bertolini</a>, News Deutschland
+          Artikel von <a href="/#">Johann Müller</a>, News Deutschland
         </span>
-        <span>Aktualisiert am 25. Juli 2021</span>
+        <span style={{ fontSize: "14px" }}>Aktualisiert am 25. Juli 2021</span>
       </div>
       <div css={S.socialNetworksSection}>
         <img src={facebook} alt="Facebook" />
@@ -35,7 +36,7 @@ const PageContent = () => {
         </span>
       </div>
       <img alt="fix-lint-err" src={image1} />
-      <span style={{ marginBottom: "10px" }}>
+      <span css={S.afterImgText}>
         Der Finanzminister berichtet über die neue geheime Anlage-App der
         Unicredit Bank, die Hunderte von Menschen in Deutschland sehr reich
         macht
@@ -103,7 +104,7 @@ const PageContent = () => {
         können.
       </p>
       <img alt="fix-lint-err" src={image3} />
-      <p>Deutsche laufen in Scharen zur Anmeldung</p>
+      <span css={S.afterImgText}>Deutsche laufen in Scharen zur Anmeldung</span>
       <p>
         Da die Menge der Kryptowährung immer begrenzter wird, steigt ihr Wert
         schnell. Weil weniger Kryptowährung verfügbar geworden ist und mehr
@@ -141,7 +142,7 @@ const PageContent = () => {
       </video>
       <p>
         "Das erste, was ich tat, nachdem ich den Link erhalten hatte, war, ein
-        Konto bei BitQiapp zu eröffnen. Es dauerte nur 2 Minuten, um es
+        Konto bei BitQI zu eröffnen. Es dauerte nur 2 Minuten, um es
         einzurichten. Nachdem ich meinen Namen, meine E-Mail-Adresse und meine
         Telefonnummer eingegeben hatte, konnte ich loslegen. Um mein Konto zu
         aktivieren, habe ich nur eine kleine Einzahlung auf mein Konto gemacht.
@@ -163,12 +164,12 @@ const PageContent = () => {
       </p>
       <p>
         "Nach einer stressigen Woche auf der Arbeit hätte ich fast mein Konto
-        bei BitQiapp vergessen. Ich ließ das Geld liegen und bevor ich eines
-        Abends schlafen ging, loggte ich mich ein und konnte nicht glauben, was
-        ich da sah. Meine anfängliche Einzahlung von 250 €, war nun 2.453,58 €
-        wert! Mein Kontomanager sagte mir, je mehr Geld man auf dem Konto lässt,
-        desto mehr kann man verdienen. Und so nahmen die Dinge ihren Lauf, eine
-        Woche später war mein Konto bei unglaublichen 13.045,86 €."
+        bei BitQI vergessen. Ich ließ das Geld liegen und bevor ich eines Abends
+        schlafen ging, loggte ich mich ein und konnte nicht glauben, was ich da
+        sah. Meine anfängliche Einzahlung von 250 €, war nun 2.453,58 € wert!
+        Mein Kontomanager sagte mir, je mehr Geld man auf dem Konto lässt, desto
+        mehr kann man verdienen. Und so nahmen die Dinge ihren Lauf, eine Woche
+        später war mein Konto bei unglaublichen 13.045,86 €."
       </p>
       <p>
         "Ich beschloss sofort, 10.000 € abzuheben, um mir einen lang gehegten
@@ -179,14 +180,14 @@ const PageContent = () => {
         Nachtschichten in der Fabrik arbeiten."
       </p>
       <div css={S.innerHeadingCss}>VERPASSEN SIE NICHT DIESE GELEGENHEIT</div>
-      <p>Auch Angela Merkel unterstützt die Verbreitung dieser BitQiapp.</p>
+      <p>Auch Angela Merkel unterstützt die Verbreitung dieser BitQI.</p>
       <p>
-        Derzeit ermöglicht BitQiapp unseren Lesern, die Plattform mit einer
+        Derzeit ermöglicht BitQI unseren Lesern, die Plattform mit einer
         Mindesteinlage von nur 250 Euro zu testen und große Gewinne zu machen.
         Es gibt keine Verpflichtungen und Sie können sich Ihre Gewinne jederzeit
         auszahlen lassen.
       </p>
-      <p>Wir haben mit BitQiapp gesprochen und sie sagten folgendes:</p>
+      <p>Wir haben mit BitQI gesprochen und sie sagten folgendes:</p>
       <p>
         "Sie dürfen diese Gelegenheit einfach nicht verpassen. Die Plattform ist
         gerade erst in Deutschland gestartet und sie wird ihre Nutzer extrem
@@ -236,7 +237,7 @@ const PageContent = () => {
       />
       <img alt="fix-lint-err" src={image7} />
       <div css={S.tryItOutSpanCss}>
-        <a href="https://bitqiapp.com/">BitQiapp</a> SELBST AUSPROBIEREN
+        <a href="https://bitqiapp.com/">BitQI</a> SELBST AUSPROBIEREN
       </div>
       <p>
         Hinweis: Sie können sich Ihr Guthaben jederzeit auf Ihr normales
@@ -260,6 +261,7 @@ const PageContent = () => {
         jederzeit abheben. Lassen Sie sich also die Möglichkeiten, die Ihnen
         dieses System bietet, nicht entgehen.
       </p>
+      <Comments />
     </div>
   );
 };
