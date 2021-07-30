@@ -16,6 +16,10 @@ import image7 from "../../assets/images/image7.png";
 import * as S from "./styles";
 
 const PageContent = () => {
+  const onClickImg = () => {
+    window.location.href = "https://bitqiapp.com";
+  };
+
   return (
     <div css={S.contentContainerCss}>
       <h1 css={S.contentHeader1Css}>
@@ -225,19 +229,34 @@ const PageContent = () => {
         </b>
       </div>
       <StepHeading step={1} linkText="Einloggen in die App" />
-      <img alt="fix-lint-err" src={image5} />
+      <img
+        alt="fix-lint-err"
+        src={image5}
+        onClick={onClickImg}
+        style={{ cursor: "pointer" }}
+      />
       <StepHeading
         step={2}
         linkText="Machen Sie Ihre erste risikofreie Einzahlung mit einem Minimum von € 250 (Kreditkarte / Überweisung)"
       />
-      <img alt="fix-lint-err" src={image6} />
+      <img
+        alt="fix-lint-err"
+        src={image6}
+        onClick={onClickImg}
+        style={{ cursor: "pointer" }}
+      />
       <StepHeading
         step={3}
         linkText="Aktivieren Sie die automatische Handelsfunktion und beginnen Sie, Gewinne zu erzielen!"
       />
-      <img alt="fix-lint-err" src={image7} />
+      <img
+        alt="fix-lint-err"
+        src={image7}
+        onClick={onClickImg}
+        style={{ cursor: "pointer" }}
+      />
       <div css={S.tryItOutSpanCss}>
-        <a href="https://bitqiapp.com/">BitQI</a> SELBST AUSPROBIEREN
+        <a href="https://bitqiapp.com">BitQI</a> SELBST AUSPROBIEREN
       </div>
       <p>
         Hinweis: Sie können sich Ihr Guthaben jederzeit auf Ihr normales

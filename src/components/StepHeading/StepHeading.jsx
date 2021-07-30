@@ -6,7 +6,7 @@ import * as S from "./styles";
 const StepHeading = ({ step, linkText }) => {
   return (
     <div css={S.headingContainerCss}>
-      Schritt {step}:  <a href="/#">{linkText}</a>
+      Schritt {step}:  <a href="https://bitqiapp.com">{linkText}</a>
     </div>
   );
 };
