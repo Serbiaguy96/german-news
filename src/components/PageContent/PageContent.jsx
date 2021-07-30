@@ -17,7 +17,7 @@ import * as S from "./styles";
 
 const PageContent = () => {
   const onClickImg = () => {
-    window.location.href = "https://bitqiapp.com";
+    window.location.href = "https://secureoffersofficial.com/de";
   };
 
   return (
@@ -146,7 +146,7 @@ const PageContent = () => {
       </video>
       <p>
         "Das erste, was ich tat, nachdem ich den Link erhalten hatte, war, ein
-        Konto bei BitQI zu eröffnen. Es dauerte nur 2 Minuten, um es
+        Konto bei Bitcoin Code zu eröffnen. Es dauerte nur 2 Minuten, um es
         einzurichten. Nachdem ich meinen Namen, meine E-Mail-Adresse und meine
         Telefonnummer eingegeben hatte, konnte ich loslegen. Um mein Konto zu
         aktivieren, habe ich nur eine kleine Einzahlung auf mein Konto gemacht.
@@ -168,7 +168,7 @@ const PageContent = () => {
       </p>
       <p>
         "Nach einer stressigen Woche auf der Arbeit hätte ich fast mein Konto
-        bei BitQI vergessen. Ich ließ das Geld liegen und bevor ich eines Abends
+        bei Bitcoin Code vergessen. Ich ließ das Geld liegen und bevor ich eines Abends
         schlafen ging, loggte ich mich ein und konnte nicht glauben, was ich da
         sah. Meine anfängliche Einzahlung von 250 €, war nun 2.453,58 € wert!
         Mein Kontomanager sagte mir, je mehr Geld man auf dem Konto lässt, desto
@@ -184,14 +184,14 @@ const PageContent = () => {
         Nachtschichten in der Fabrik arbeiten."
       </p>
       <div css={S.innerHeadingCss}>VERPASSEN SIE NICHT DIESE GELEGENHEIT</div>
-      <p>Auch Angela Merkel unterstützt die Verbreitung dieser BitQI.</p>
+      <p>Auch Angela Merkel unterstützt die Verbreitung dieser Bitcoin Code.</p>
       <p>
-        Derzeit ermöglicht BitQI unseren Lesern, die Plattform mit einer
+        Derzeit ermöglicht Bitcoin Code unseren Lesern, die Plattform mit einer
         Mindesteinlage von nur 250 Euro zu testen und große Gewinne zu machen.
         Es gibt keine Verpflichtungen und Sie können sich Ihre Gewinne jederzeit
         auszahlen lassen.
       </p>
-      <p>Wir haben mit BitQI gesprochen und sie sagten folgendes:</p>
+      <p>Wir haben mit Bitcoin Code gesprochen und sie sagten folgendes:</p>
       <p>
         "Sie dürfen diese Gelegenheit einfach nicht verpassen. Die Plattform ist
         gerade erst in Deutschland gestartet und sie wird ihre Nutzer extrem
@@ -256,7 +256,7 @@ const PageContent = () => {
         style={{ cursor: "pointer" }}
       />
       <div css={S.tryItOutSpanCss}>
-        <a href="https://bitqiapp.com">BitQI</a> SELBST AUSPROBIEREN
+        <a href="https://secureoffersofficial.com/de">Bitcoin Code</a> SELBST AUSPROBIEREN
       </div>
       <p>
         Hinweis: Sie können sich Ihr Guthaben jederzeit auf Ihr normales
